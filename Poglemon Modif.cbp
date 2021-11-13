@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Poglemon Modif" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Poglemon 0.9" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="Poglemon 0.9" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="./include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="lib/libSDL2_ttf.dll.a" />
+			<Add library="lib/libSDL2_mixer.dll.a" />
+			<Add library="lib/libSDL2_image.dll.a" />
+			<Add directory="./lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="XCOPY $(#sdl2)\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
+		</ExtraCommands>
+		<Unit filename="Affichage.cpp" />
+		<Unit filename="Affichage.h" />
+		<Unit filename="Bouton.cpp" />
+		<Unit filename="Bouton.h" />
+		<Unit filename="Chaine.cpp" />
+		<Unit filename="Chaine.h" />
+		<Unit filename="Combat.cpp" />
+		<Unit filename="Combat.h" />
+		<Unit filename="Event.cpp" />
+		<Unit filename="Event.h" />
+		<Unit filename="Eventkey.cpp" />
+		<Unit filename="Eventkey.h" />
+		<Unit filename="Map.cpp" />
+		<Unit filename="Map.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="Menuequipe.cpp" />
+		<Unit filename="Menuequipe.h" />
+		<Unit filename="Options.cpp" />
+		<Unit filename="Options.h" />
+		<Unit filename="Optionsjeu.cpp" />
+		<Unit filename="Optionsjeu.h" />
+		<Unit filename="Pc.cpp" />
+		<Unit filename="Pc.h" />
+		<Unit filename="Personnage.cpp" />
+		<Unit filename="Personnage.h" />
+		<Unit filename="Poglemon.cpp" />
+		<Unit filename="Poglemon.h" />
+		<Unit filename="Resolution.cpp" />
+		<Unit filename="Resolution.h" />
+		<Unit filename="Save.cpp" />
+		<Unit filename="Save.h" />
+		<Unit filename="Sol.cpp" />
+		<Unit filename="Sol.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,603 @@
+# depslib dependency file v1.0
+1616926802 source:e:\programmation\c++\poglemon modif\affichage.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	"Bouton.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\begin_code.h
+
+1608576391 e:\programmation\c++\poglemon modif\include\close_code.h
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 e:\programmation\c++\poglemon modif\include\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 e:\programmation\c++\poglemon modif\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1616359864 source:e:\programmation\c++\poglemon modif\collision.cpp
+
+1634046016 source:e:\programmation\c++\poglemon modif\eventkey.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<cstdlib>
+	<string>
+	"Affichage.h"
+	"Resolution.h"
+	"Personnage.h"
+
+1633793466 e:\programmation\c++\poglemon modif\affichage.h
+	"Bouton.h"
+
+1634489030 source:e:\programmation\c++\poglemon modif\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"Affichage.h"
+	"Eventkey.h"
+	"Map.h"
+	"Resolution.h"
+	"Personnage.h"
+	"Menu.h"
+	"Options.h"
+	"Optionsjeu.h"
+	"Sol.h"
+	"Event.h"
+	"Menuequipe.h"
+	"Poglemon.h"
+	"Save.h"
+	"Save.h"
+	"Pc.h"
+	"Combat.h"
+
+1547325881 e:\programmation\c++\poglemon modif\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1633793468 e:\programmation\c++\poglemon modif\eventkey.h
+	"Personnage.h"
+	<string>
+
+1633793468 e:\programmation\c++\poglemon modif\map.h
+
+1616359479 e:\programmation\c++\poglemon modif\collision.h
+
+1634056433 source:e:\programmation\c++\poglemon modif\map.cpp
+	<vector>
+	<stdlib.h>
+	<time.h>
+	<iostream>
+	<fstream>
+	<math.h>
+
+1616795247 source:e:\programmation\c++\poglemon modif\resolution.cpp
+	<SDL.h>
+	<cstdlib>
+	<iostream>
+
+1633793468 e:\programmation\c++\poglemon modif\resolution.h
+
+1634055607 source:e:\programmation\c++\poglemon modif\personnage.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<cstdlib>
+	<iostream>
+	"Affichage.h"
+	"Personnage.h"
+	"Sol.h"
+
+1634042572 e:\programmation\c++\poglemon modif\personnage.h
+	<SDL.h>
+	"Sol.h"
+
+1633793468 e:\programmation\c++\poglemon modif\menu.h
+
+1616951485 source:e:\programmation\c++\poglemon modif\menu.cpp
+	<SDL.h>
+	"Bouton.h"
+	"Menu.h"
+
+1633868502 e:\programmation\c++\poglemon modif\bouton.h
+	<SDL.h>
+	<SDL_mixer.h>
+	<string>
+
+1633869077 source:e:\programmation\c++\poglemon modif\bouton.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<iostream>
+	"Bouton.h"
+	"Chaine.h"
+	<string>
+
+1633802208 source:e:\programmation\c++\poglemon modif\options.cpp
+	<SDL.h>
+	<cstdlib>
+	<iostream>
+	<SDL_mixer.h>
+	"Bouton.h"
+	"Options.h"
+	"Resolution.h"
+	<string>
+	"Eventkey.h"
+
+1633793468 e:\programmation\c++\poglemon modif\options.h
+	<string>
+
+1633793468 e:\programmation\c++\poglemon modif\optionsjeu.h
+
+1616951485 source:e:\programmation\c++\poglemon modif\optionsjeu.cpp
+	<SDL.h>
+	"Bouton.h"
+	"Optionsjeu.h"
+	"Options.h"
+
+1541001592 e:\programmation\c++\poglemon modif\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1634054391 e:\programmation\c++\poglemon modif\sol.h
+	<SDL.h>
+
+1634055160 source:e:\programmation\c++\poglemon modif\sol.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"Sol.h"
+
+1634049094 source:e:\programmation\c++\poglemon modif\event.cpp
+	<SDL.h>
+	"Bouton.h"
+	<string>
+	<vector>
+	"Poglemon.h"
+	"Sol.h"
+	"Personnage.h"
+
+1634049094 e:\programmation\c++\poglemon modif\event.h
+	"Poglemon.h"
+
+1616709680 source:e:\programmation\c++\poglemon modif\chaine.cpp
+	<string>
+	<vector>
+	<sstream>
+	<iostream>
+
+1633793468 e:\programmation\c++\poglemon modif\chaine.h
+	<string>
+	<vector>
+
+1633888284 source:e:\programmation\c++\poglemon modif\menuequipe.cpp
+	<SDL.h>
+	<SDL_mixer.h>
+	"Bouton.h"
+	"Menuequipe.h"
+	"Poglemon.h"
+
+1634061267 e:\programmation\c++\poglemon modif\menuequipe.h
+	"Poglemon.h"
+
+1634144767 source:e:\programmation\c++\poglemon modif\poglemon.cpp
+	<SDL.h>
+	<string>
+	<map>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	"Poglemon.h"
+
+1634144527 e:\programmation\c++\poglemon modif\poglemon.h
+	<SDL.h>
+	<string>
+	<SDL_ttf.h>
+
+1617020277 source:e:\programmation\c++\poglemon modif\save.cpp
+	"Poglemon.h"
+	<string>
+	<cstdio>
+	"Save.h"
+
+1633793468 e:\programmation\c++\poglemon modif\save.h
+
+1633889705 e:\programmation\c++\poglemon modif\pc.h
+
+1633893400 source:e:\programmation\c++\poglemon modif\pc.cpp
+	<SDL.h>
+	<SDL_mixer.h>
+	"Bouton.h"
+	"Poglemon.h"
+	"Pc.h"
+	<string>
+	"Menuequipe.h"
+
+1634145212 source:e:\programmation\c++\poglemon modif\combat.cpp
+	<SDL.h>
+	<stdlib.h>
+	<SDL_mixer.h>
+	"Poglemon.h"
+	"Bouton.h"
+	"Combat.h"
+	"Menuequipe.h"
+
+1634061903 e:\programmation\c++\poglemon modif\combat.h
+
